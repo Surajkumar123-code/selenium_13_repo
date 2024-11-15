@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="car.Tata"/>
+      <class name="car.jaguar"/>
+      <class name="car.Audi"/>
+      <class name="car.Bmw"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

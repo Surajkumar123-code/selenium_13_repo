@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="browser" value=""></parameter>
+    <classes>
+      <class name="testng.Script"/>
+      <class name="car.Tata"/>
+      <class name="car.jaguar"/>
+      <class name="testng.ConfigrqationAnnotation"/>
+      <class name="testng.HelloBaby"/>
+      <class name="car.Bmw"/>
+      <class name="testng.DemoApp"/>
+      <class name="testng.DependsOnMethods"/>
+      <class name="Assignment.AutomationExercise"/>
+      <class name="AutomationExercise.ScriptExecution"/>
+      <class name="dataprovider.ToLearnDataProvider"/>
+      <class name="demoapp.TestScript"/>
+      <class name="crossbrowsertesting.ToLearnCrossBrowser"/>
+      <class name="assertion.AssertionCondition"/>
+      <class name="assertion.SoftAssertion"/>
+      <class name="testng.AnnotationAttributes"/>
+      <class name="car.Audi"/>
+      <class name="testng.Sample"/>
+      <class name="testng.DemoLogin"/>
+      <class name="testng.ToLearnTestNg"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
